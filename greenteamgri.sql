@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 23, 2018 at 07:58 PM
+-- Generation Time: Jul 31, 2018 at 09:39 PM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.3
 
@@ -41,20 +41,13 @@ CREATE TABLE `102` (
 
 INSERT INTO `102` (`TableName`, `GRINumber`, `NameOfSection`, `Value`) VALUES
 ('Organizational Profile', '1', 'Name of the organization', ''),
-('Organizational Profile', '2', 'Activities, brands, products, and services', ''),
-('Organizational Profile', '3', 'Location of headquarters', ''),
-('Organizational Profile', '4', 'Location of operations', ''),
-('Organizational Profile', '5', 'Ownership and legal form', ''),
-('Organizational Profile', '6', 'Markets served', ''),
-('Organizational Profile', '7', 'Scale of the organization', ''),
-('Organizational Profile', '8', 'Information on employees and other workers', ''),
-('Organizational Profile', '9', 'Supply chain', ''),
 ('Organizational Profile', '10', 'Significant changes to the organization and supply chain', ''),
 ('Organizational Profile', '11', 'Precautionary principle or approach', ''),
 ('Organizational Profile', '12', 'External initiatives', ''),
 ('Organizational Profile', '13', 'Memberships of associations Governance', ''),
 ('Governance', '18', 'Governance structure', ''),
 ('Governance', '19', 'Delegating authority', ''),
+('Organizational Profile', '2', 'Activities, brands, products, and services', ''),
 ('Governance', '20', 'Executive-level responsibility for economic, environmental, and social topics', ''),
 ('Governance', '21', 'Consulting stakeholders on economic, environmental, and social topics', ''),
 ('Governance', '22', 'Composition of the highest governance body and its committees', ''),
@@ -65,6 +58,7 @@ INSERT INTO `102` (`TableName`, `GRINumber`, `NameOfSection`, `Value`) VALUES
 ('Governance', '27', 'Collective knowledge of highest governance body', ''),
 ('Governance', '28', 'Evaluating the highest governance body’s performance', ''),
 ('Governance', '29', 'Identifying and managing economic, environmental, and social impacts', ''),
+('Organizational Profile', '3', 'Location of headquarters', ''),
 ('Governance', '30', 'Effectiveness of risk management processes', ''),
 ('Governance', '31', 'Review of economic, environmental, and social topics', ''),
 ('Governance', '32', 'Highest governance body’s role in sustainability reporting', ''),
@@ -75,11 +69,18 @@ INSERT INTO `102` (`TableName`, `GRINumber`, `NameOfSection`, `Value`) VALUES
 ('Governance', '37', 'Stakeholders’ involvement in remuneration', ''),
 ('Governance', '38', 'Annual total compensation ratio', ''),
 ('Governance', '39', 'Percentage increase in annual total compensation ratio Reporting Practices', ''),
+('Organizational Profile', '4', 'Location of operations', ''),
+('Stakeholder Engagement', '40', 'List of stakeholder groups', ''),
+('Stakeholder Engagement', '41', 'Collective bargaining agreements', ''),
+('Stakeholder Engagement', '42', 'Identifying and selecting stakeholders', ''),
+('Stakeholder Engagement', '43', 'Approach to stakeholder engagement', ''),
+('Stakeholder Engagement', '44', 'Key topics and concerns raised', ''),
 ('Reporting Practices', '45', 'Entities included in the consolidated financial statements', ''),
 ('Reporting Practices', '46', 'Defining report content and topic Boundaries', ''),
 ('Reporting Practices', '47', 'List of material topics', ''),
 ('Reporting Practices', '48', 'Restatements of information', ''),
 ('Reporting Practices', '49', 'Changes in reporting', ''),
+('Organizational Profile', '5', 'Ownership and legal form', ''),
 ('Reporting Practices', '50', 'Reporting period', ''),
 ('Reporting Practices', '51', 'Date of most recent report', ''),
 ('Reporting Practices', '52', 'Reporting cycle', ''),
@@ -87,11 +88,10 @@ INSERT INTO `102` (`TableName`, `GRINumber`, `NameOfSection`, `Value`) VALUES
 ('Reporting Practices', '54', 'Claims of reporting in accordance with the GRI Standards', ''),
 ('Reporting Practices', '55', 'GRl content index', ''),
 ('Reporting Practices', '56', 'Policy/practice for external assurance', ''),
-('Stakeholder Engagement', '40', 'List of stakeholder groups', ''),
-('Stakeholder Engagement', '41', 'Collective bargaining agreements', ''),
-('Stakeholder Engagement', '42', 'Identifying and selecting stakeholders', ''),
-('Stakeholder Engagement', '43', 'Approach to stakeholder engagement', ''),
-('Stakeholder Engagement', '44', 'Key topics and concerns raised', '');
+('Organizational Profile', '6', 'Markets served', ''),
+('Organizational Profile', '7', 'Scale of the organization', ''),
+('Organizational Profile', '8', 'Information on employees and other workers', ''),
+('Organizational Profile', '9', 'Supply chain', '');
 
 -- --------------------------------------------------------
 
@@ -789,6 +789,214 @@ CREATE TABLE `419` (
 
 INSERT INTO `419` (`TableName`, `GRINumber`, `NameOfSection`, `Value`) VALUES
 ('Socio Economic Compliance', '1', 'Non-compliance with laws and regulations', '');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `102`
+--
+ALTER TABLE `102`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `201`
+--
+ALTER TABLE `201`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `202`
+--
+ALTER TABLE `202`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `203`
+--
+ALTER TABLE `203`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `204`
+--
+ALTER TABLE `204`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `205`
+--
+ALTER TABLE `205`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `206`
+--
+ALTER TABLE `206`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `301`
+--
+ALTER TABLE `301`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `302`
+--
+ALTER TABLE `302`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `303`
+--
+ALTER TABLE `303`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `304`
+--
+ALTER TABLE `304`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `305`
+--
+ALTER TABLE `305`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `306`
+--
+ALTER TABLE `306`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `307`
+--
+ALTER TABLE `307`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `308`
+--
+ALTER TABLE `308`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `401`
+--
+ALTER TABLE `401`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `402`
+--
+ALTER TABLE `402`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `403`
+--
+ALTER TABLE `403`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `404`
+--
+ALTER TABLE `404`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `405`
+--
+ALTER TABLE `405`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `406`
+--
+ALTER TABLE `406`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `407`
+--
+ALTER TABLE `407`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `408`
+--
+ALTER TABLE `408`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `409`
+--
+ALTER TABLE `409`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `410`
+--
+ALTER TABLE `410`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `411`
+--
+ALTER TABLE `411`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `412`
+--
+ALTER TABLE `412`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `413`
+--
+ALTER TABLE `413`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `414`
+--
+ALTER TABLE `414`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `415`
+--
+ALTER TABLE `415`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `416`
+--
+ALTER TABLE `416`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `417`
+--
+ALTER TABLE `417`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `418`
+--
+ALTER TABLE `418`
+  ADD PRIMARY KEY (`GRINumber`);
+
+--
+-- Indexes for table `419`
+--
+ALTER TABLE `419`
+  ADD PRIMARY KEY (`GRINumber`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
